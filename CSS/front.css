@@ -12,6 +12,7 @@ body {
 
 a {
   text-decoration: none;
+  color: #000000;
 }
 
 /* header */
@@ -47,7 +48,6 @@ a {
 }
 
 .entry-button {
-  background-color: #ffff00;
   border-radius: 16px;
   padding: 8px 16px;
   border: none;
@@ -75,7 +75,6 @@ a {
 }
 
 .walfare-titleText {
-  background-color: yellow;
   position: absolute;
   top: 50%;
   left: 50%;
