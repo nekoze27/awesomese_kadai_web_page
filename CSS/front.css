@@ -48,6 +48,7 @@ a {
 }
 
 .entry-button {
+  background-color: #EDD100;
   border-radius: 16px;
   padding: 8px 16px;
   border: none;
@@ -57,21 +58,25 @@ a {
 /* walfare */
 .walfare-area {
   width: 100%;
-  height: 1600px;
+  height: auto;
   padding: 48px 0;
 }
 
 .walfare-title {
   width: 20%;
-  height: 10%;
+  height: 20%;
   position: relative;
   margin: 24px;
 }
 
+.walfare-logoArea {
+  width: 100%;
+  height: auto;
+}
+
 .walfare-logo {
-  position: absolute;
-  height: 100%;
-  width: auto;
+  height: auto;
+  width: 100%;
 }
 
 .walfare-titleText {
@@ -81,7 +86,11 @@ a {
   transform: translate(-50%, -50%);
   height: auto;
   width: auto;
-  font-size: 40px;
+}
+
+.walfare-imgArea {
+  width: 100%;
+  height: auto;
 }
 
 .walfare-img {
@@ -161,10 +170,10 @@ a {
 
 .training-textArea {
   background-color:rgba(255,250,250,0.5);
-  width: 30%;
+  width: 20%;
   height: auto;
-  margin: 48px;
-  padding: 72px;
+  margin: 5%;
+  padding: 10%;
   position: absolute;
   z-index: 1;
   border-bottom-right-radius: 20%;
@@ -283,4 +292,91 @@ a {
   height: auto;
   justify-content: space-between;
   padding: 0 0 24px 0;
+}
+
+@media (max-width: 768px) {
+  .header-logoArea {
+    width: 100%;
+    height: auto;
+  }
+  .log {
+    width: 100px;
+    height: auto;
+  }
+
+  .logo-img {
+    width: 70%;
+    height: auto;
+  }
+
+  .nav {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .nav-items {
+    width: 100%;
+    height: auto;
+    font-size: 2px;
+    padding: 0;
+  }
+
+  .entry-button {
+    font-size: 2px;
+    padding: 0;
+  }
+
+  .walfare-logoArea {
+    width: 200%;
+    height: auto;
+  }
+
+  .walfare-titleText {
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+    left: 80px;
+  }
+
+  .training-textArea {
+    width: 280px;
+    height: auto;
+    padding: 0;
+  }
+
+  .taining-text {
+    font-size: 12px;
+  }
+
+  .education-text {
+    margin: 0;
+    font-size: 16px;
+  }
+
+  .education-explaination {
+    font-size: 12px;
+  }
+
+  .recruitment-text {
+    font-size: 16px;
+  }
+
+  .entry-text {
+    font-size: 16px;
+  }
+
+  .copywrite {
+    font-size: 8px;
+  }
+
+  .copywrite {
+    font-size: 8px;
+  }
+
+  .cooperation-guide {
+    font-size: 8px;
+  }
+
 }
