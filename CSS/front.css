@@ -319,12 +319,12 @@ a {
   .nav-items {
     width: 100%;
     height: auto;
-    font-size: 2px;
+    font-size: 8px;
     padding: 0;
   }
 
   .entry-button {
-    font-size: 2px;
+    font-size: 8px;
     padding: 0;
   }
 
